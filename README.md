@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # calcbc_slidev
 =======
 # Welcome to [Slidev](https://github.com/slidevjs/slidev)!
@@ -12,4 +11,3 @@ To start the slide show:
 Edit the [slides.md](./slides.md) to see the changes.
 
 Learn more about Slidev on [documentations](https://sli.dev/).
->>>>>>> 4769078 (Integration basics)
