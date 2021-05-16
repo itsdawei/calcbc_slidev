@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: seriph
+theme: apple-basic
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://source.unsplash.com/collection/94734566/1920x1080
@@ -45,11 +45,15 @@ $$
 
 <br>
 
+<v-click>
+
 ### Bad Example
 (32) Evaluate $\int x^2 \cos x dx$.
 $$
 \int x^2 \cdot \int \cos x dx = \frac{x^3}{3} \cdot \sin x + C
 $$
+
+</v-click>
 
 ---
 
@@ -103,11 +107,15 @@ Evaluate $\int 2x^2 \cos(x^3) dx$
 
 <br>
 
+<v-click>
+
 $$ \begin{aligned}
 \frac{d}{dx}(uv) = u\frac{dv}{dx} + v \frac{du}{dx} \\
-uv = \int u\frac{dv}{dx} + \int v\frac{du}{dx} \\
-\int u \frac{dv}{dx} = uv - \int v \frac{du}{dx}
+uv = \int udv + \int vdu \\
+\int u dv = uv - \int vdu
 \end{aligned} $$
+
+</v-click>
 
 <v-click>
 
@@ -128,7 +136,7 @@ uv = \int u\frac{dv}{dx} + \int v\frac{du}{dx} \\
 
 <v-clicks>
 
-$\int xe^{-x}dx$
+## $\int xe^{-x}dx$
 
 Let $u = x$ and $dv = e^{-x}dx$ since $x$ is a **P**olynomial, which comes
 before **E**xponential in **LIPET**.
@@ -137,9 +145,9 @@ $$
 \int xe^{-x}dx = -xe^{-x} - \int -e^{-x}dx = -xe^{-x} - e^{-x} + C
 $$
 
-$\int x \sin(4x) dx$
+## $\int x \sin(4x) dx$
 
-Let $u = x$ and $dv = \sin(4x)$, since $x$ is a **P**olynomial, which comes
+Let $u = x$ and $dv = \sin(4x)dx$, since $x$ is a **P**olynomial, which comes
 before **T**rig in **LIPET**.
 
 $$
@@ -155,9 +163,9 @@ $$
 
 <br>
 
-$\int \frac{dx}{x^2+3x-4}$
+## $\int \frac{dx}{x^2+3x-4}$
 
-$\int \frac{x^5 + 2x^2 + 1}{x^3 - x}$
+## $\int \frac{x^5 + 2x^2 + 1}{x^3 - x}$
 
 ---
 
